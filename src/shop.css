@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    padding: 30px 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style-type: none;
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+    color: #2a2438;
+    font-size: 1.5rem;
+}
+i{
+    padding-left: 20px;
+    
+}
+i.fa-solid.fa-ice-cream{
+    font-size: 1.5rem;
+}
+label{
+    padding-left: 40px;
+    font-size: 1.5rem;
+    color: #2a2438;
+}
+section.choose{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+article.helado-texto{
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 40px;
+}
